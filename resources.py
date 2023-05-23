@@ -8,7 +8,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 def creating_model(docs):
     text_splitter = TokenTextSplitter(chunk_size=1000, chunk_overlap=100)
